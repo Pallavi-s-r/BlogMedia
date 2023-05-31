@@ -1,6 +1,7 @@
 const blog = require("../models/blog");
 const blogModel = require("../models/blog");
 const moment = require("moment");
+
 const removeEmptyTags = function (arr) {
   return arr.filter(tag => tag.trim() !== '');
 };
